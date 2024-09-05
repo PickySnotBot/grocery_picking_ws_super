@@ -64,3 +64,6 @@
 [submodule "src/vision"]
 	path = src/vision
 	url = https://github.com/PickySnotBot/vision.git
+[submodule "src/simulation"]
+	path = src/simulation
+	url = https://github.com/PickySnotBot/simulation.git
