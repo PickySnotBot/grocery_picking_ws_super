@@ -1,3 +1,0 @@
-[console_scripts]
-joystick_control = remote_control.joystick_control:main
-
