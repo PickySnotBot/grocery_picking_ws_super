@@ -1,0 +1,1032 @@
+[0.040s] Invoking command in '/home/ofek/grocery_picking_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/sensors/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/rplidar_ros
+[0.166s] -- The C compiler identification is GNU 9.4.0
+[0.275s] -- The CXX compiler identification is GNU 9.4.0
+[0.285s] -- Check for working C compiler: /usr/bin/cc
+[0.429s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.437s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.597s] -- Detecting C compile features
+[0.597s] -- Detecting C compile features - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++
+[0.766s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.767s] -- Detecting CXX compiler ABI info
+[0.916s] -- Detecting CXX compiler ABI info - done
+[0.936s] -- Detecting CXX compile features
+[0.936s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.994s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.994s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.452s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.569s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.026s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.112s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.421s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.427s] -- Looking for pthread.h
+[2.715s] -- Looking for pthread.h - found
+[2.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.979s] -- Looking for pthread_create in pthreads
+[3.177s] -- Looking for pthread_create in pthreads - not found
+[3.178s] -- Looking for pthread_create in pthread
+[3.367s] -- Looking for pthread_create in pthread - found
+[3.369s] -- Found Threads: TRUE  
+[3.851s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.100s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.380s] -- Configuring done
+[4.455s] -- Generating done
+[4.458s] -- Build files have been written to: /home/ofek/grocery_picking_ws/build/rplidar_ros
+[4.505s] Invoked command in '/home/ofek/grocery_picking_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/sensors/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/rplidar_ros
+[4.507s] Invoking command in '/home/ofek/grocery_picking_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/rplidar_ros -- -j6 -l6
+[4.745s] [35m[1mScanning dependencies of target rplidar_client[0m
+[4.761s] [35m[1mScanning dependencies of target rplidar_composition[0m
+[4.771s] [35m[1mScanning dependencies of target rplidar_node[0m
+[4.871s] [  2%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[4.974s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[4.975s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[4.989s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[5.001s] [ 13%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[5.038s] [ 15%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[6.207s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[6.207s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.207s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[6.208s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[6.208s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[6.209s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.209s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[6.209s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[6.209s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[6.209s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.209s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.209s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.210s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[6.210s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.210s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.210s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.213s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[6.213s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+[6.213s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[6.214s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.270s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[6.270s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.270s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[6.270s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[6.278s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[6.278s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[6.278s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[6.279s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[6.279s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.279s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[6.279s]       |                [01;35m[K^[m[K
+[6.280s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[6.280s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[6.280s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[6.280s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[6.280s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[6.280s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[6.280s]       |                    [01;35m[K^[m[K
+[6.287s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[6.288s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.288s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[6.288s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[6.288s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[6.288s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.288s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.289s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.289s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[6.289s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.289s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.289s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.303s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[6.303s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K-Wunused-value[m[K]
+[6.304s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[6.304s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.529s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[6.530s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:41[m[K,
+[6.530s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[6.531s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[6.531s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.531s]   733 |             assert([01;35m[Kans == len[m[K);
+[6.532s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[6.583s] [ 18%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[6.695s] [ 21%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[7.305s] [ 23%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[7.781s] [ 26%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[7.854s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[7.854s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[7.855s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[7.855s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.855s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[7.855s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[7.855s]       |                [01;35m[K^[m[K
+[7.858s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[7.858s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[7.858s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[7.858s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.858s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[7.858s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[7.859s]       |                    [01;35m[K^[m[K
+[8.114s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[8.114s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:41[m[K,
+[8.114s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[8.114s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[8.114s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.114s]   733 |             assert([01;35m[Kans == len[m[K);
+[8.115s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[8.591s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[8.592s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[8.592s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[8.592s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[8.592s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[8.592s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.592s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[8.593s]       |                [01;35m[K^[m[K
+[8.594s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[8.595s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[8.595s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[8.595s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[8.595s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[8.595s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.595s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[8.595s]       |                    [01;35m[K^[m[K
+[8.820s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[9.047s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[9.048s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[9.048s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[9.048s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[9.048s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[9.049s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.049s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[9.049s]       |                [01;35m[K^[m[K
+[9.050s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[9.051s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[9.051s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[9.051s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[9.051s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[9.051s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.052s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[9.052s]       |                    [01;35m[K^[m[K
+[9.091s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[9.091s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[9.091s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.092s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[9.092s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[9.092s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.092s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[9.092s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[9.092s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.092s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[9.092s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[9.093s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.093s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[9.093s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[9.093s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[9.093s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.093s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[9.093s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[9.093s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.094s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[9.094s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[9.094s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.094s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[9.094s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[9.094s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.095s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[9.095s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[9.551s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[9.552s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[9.552s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.552s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[9.552s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[9.563s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.563s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[9.563s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[9.563s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.564s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[9.564s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[9.564s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.564s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[9.564s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[9.564s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[9.565s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.565s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[9.565s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[9.565s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.565s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[9.565s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[9.565s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.565s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[9.566s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[9.566s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.566s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[9.566s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[9.621s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[9.621s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:108:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[9.621s]   763 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[9.622s]       |                                                                                                            [01;35m[K^[m[K
+[10.107s] [ 31%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[10.178s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[10.263s] [ 36%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[10.835s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[10.835s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[10.836s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[10.836s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[10.836s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.836s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[10.837s]       |                [01;35m[K^[m[K
+[10.839s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[10.839s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[10.839s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[10.840s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.840s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[10.840s]       |                    [01;35m[K^[m[K
+[11.177s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[11.177s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[11.177s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[11.178s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[11.178s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.179s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[11.179s]       |                [01;35m[K^[m[K
+[11.181s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[11.181s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[11.181s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[11.182s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.182s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[11.182s]       |                    [01;35m[K^[m[K
+[11.403s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[11.403s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[11.403s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.403s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[11.404s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[11.404s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.404s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[11.404s]       |                [01;35m[K^[m[K
+[11.404s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[11.405s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[11.405s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.405s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[11.405s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[11.405s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.405s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[11.405s]       |                    [01;35m[K^[m[K
+[11.411s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[11.411s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[11.411s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.412s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.412s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[11.412s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.412s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[11.413s]       |                [01;35m[K^[m[K
+[11.413s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[11.413s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[11.413s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.413s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.413s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[11.413s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.414s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[11.414s]       |                    [01;35m[K^[m[K
+[11.481s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[11.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[11.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[11.483s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.483s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[11.483s]       |                [01;35m[K^[m[K
+[11.485s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[11.486s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[11.486s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[11.486s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.486s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[11.487s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.487s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[11.487s]       |                    [01;35m[K^[m[K
+[11.731s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[11.731s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[11.732s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.732s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[11.732s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[11.733s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.733s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[11.733s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[11.734s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.734s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[11.734s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[11.735s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.735s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[11.735s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[11.736s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[11.736s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.736s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[11.737s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[11.737s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.737s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[11.738s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[11.738s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.739s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[11.739s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[11.739s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.740s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[11.740s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[11.858s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[11.858s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[11.859s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.859s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[11.859s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[11.871s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.871s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[11.871s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[11.871s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.871s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[11.872s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[11.872s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.872s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[11.872s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[11.873s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[11.874s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.874s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[11.874s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[11.874s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.874s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[11.874s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[11.874s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.875s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[11.875s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[11.875s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.875s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[11.875s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[11.891s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[11.891s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[11.891s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.891s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[11.892s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[11.892s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.892s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[11.892s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[11.892s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.892s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[11.892s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[11.892s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.893s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[11.893s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[11.893s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[11.893s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.893s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[11.893s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[11.894s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.894s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[11.894s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[11.894s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.894s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[11.894s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[11.894s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.894s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[11.895s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[12.004s] [ 39%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[12.367s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[12.645s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[12.646s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[12.646s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[12.646s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[12.647s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.647s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[12.647s]       |                [01;35m[K^[m[K
+[12.649s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[12.650s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[12.650s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[12.650s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[12.650s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.651s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[12.651s]       |                    [01;35m[K^[m[K
+[12.749s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[12.749s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[12.750s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:52:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[12.750s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[12.750s]       |                                                                             [01;35m[K^~~~[m[K
+[12.753s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[12.753s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.754s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[12.754s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[12.884s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[12.991s] [ 47%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[13.603s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[13.603s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[13.603s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[13.603s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[13.603s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.603s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[13.604s]       |                [01;35m[K^[m[K
+[13.607s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[13.607s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[13.607s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[13.607s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[13.607s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.608s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[13.608s]       |                    [01;35m[K^[m[K
+[13.995s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[13.995s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.996s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[13.996s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[13.996s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[13.996s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.996s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[13.996s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[13.997s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[13.998s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.998s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[13.998s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[13.998s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.998s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[13.998s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[14.191s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[14.191s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[14.191s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[14.192s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[14.192s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[14.192s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.192s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[14.193s]       |                [01;35m[K^[m[K
+[14.195s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[14.195s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[14.195s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[14.196s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[14.196s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[14.196s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.196s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[14.197s]       |                    [01;35m[K^[m[K
+[14.207s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[14.207s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[14.207s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[14.207s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[14.207s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.208s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[14.208s]       |                [01;35m[K^[m[K
+[14.219s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[14.219s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[14.219s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[14.219s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[14.219s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.220s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[14.220s]       |                    [01;35m[K^[m[K
+[14.407s] [ 50%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[14.475s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[14.475s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[14.475s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[14.476s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.476s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[14.476s]       |                [01;35m[K^[m[K
+[14.477s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[14.477s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[14.477s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.477s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[14.477s]       |                    [01;35m[K^[m[K
+[14.602s] [ 52%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[14.634s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[14.634s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[14.635s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.635s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[14.635s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[14.683s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[14.684s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[14.684s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.684s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[14.684s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[14.685s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.685s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[14.685s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[14.686s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.686s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[14.686s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[14.687s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.687s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[14.687s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[14.688s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[14.688s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.688s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[14.688s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[14.689s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.689s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[14.689s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[14.690s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.690s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[14.690s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[14.691s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.691s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[14.691s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[14.755s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[14.755s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:108:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[14.755s]   763 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[14.756s]       |                                                                                                            [01;35m[K^[m[K
+[15.246s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[15.423s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[15.729s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[15.730s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[15.730s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[15.730s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[15.731s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[15.731s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[15.731s]       |                [01;35m[K^[m[K
+[15.733s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[15.733s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[15.733s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[15.733s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[15.734s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[15.734s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[15.734s]       |                    [01;35m[K^[m[K
+[16.233s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[16.234s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[16.234s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[16.234s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[16.234s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.235s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.235s]       |                [01;35m[K^[m[K
+[16.238s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[16.239s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[16.239s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[16.239s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[16.240s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.240s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.240s]       |                    [01;35m[K^[m[K
+[16.256s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[16.256s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[16.256s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.257s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[16.257s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[16.264s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.264s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[16.264s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[16.264s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.265s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[16.265s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[16.265s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.265s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[16.265s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[16.265s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[16.265s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.265s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[16.266s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[16.266s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.266s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[16.266s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[16.266s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.266s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[16.266s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[16.266s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.266s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[16.267s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[16.298s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[16.299s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[16.299s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.299s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[16.299s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[16.441s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[16.441s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.441s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[16.441s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.462s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[16.462s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.462s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[16.462s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[16.483s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[16.483s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.483s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[16.483s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.489s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[16.489s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.489s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[16.489s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[16.507s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[16.508s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.508s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[16.508s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[16.511s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[16.511s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.511s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[16.511s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.540s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[16.541s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[16.541s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.541s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[16.541s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[16.655s] /home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[16.655s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1648:61:[m[K   required from here
+[16.656s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[16.656s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[16.656s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[16.671s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[16.672s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[16.672s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[16.672s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[16.672s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[16.672s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.672s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.673s]       |                [01;35m[K^[m[K
+[16.673s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[16.673s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[16.673s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[16.673s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[16.673s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[16.674s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.674s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.674s]       |                    [01;35m[K^[m[K
+[16.807s] [ 60%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[17.017s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[17.018s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[17.018s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.019s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[17.019s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[17.019s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.019s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[17.020s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[17.020s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.020s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[17.023s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[17.024s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.024s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[17.024s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[17.025s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[17.025s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.025s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[17.025s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[17.026s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.026s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[17.026s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[17.027s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.027s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[17.027s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[17.027s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.028s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[17.028s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[17.205s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[17.205s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[17.205s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[17.205s]       |                 [01;35m[K^~~~~~~[m[K
+[17.205s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[17.206s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[17.206s]       |                 [01;35m[K^~~~~~~[m[K
+[17.206s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[17.206s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[17.206s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.331s] [ 63%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[17.667s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[17.668s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[17.668s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[17.668s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.668s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[17.668s]       |                [01;35m[K^[m[K
+[17.679s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[17.679s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[17.679s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.679s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[17.679s]       |                    [01;35m[K^[m[K
+[17.981s] [ 65%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[18.608s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[18.608s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[18.608s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[18.608s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[18.609s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[18.609s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.609s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[18.610s]       |                [01;35m[K^[m[K
+[18.610s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[18.610s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[18.610s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[18.610s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[18.611s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[18.611s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.611s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[18.611s]       |                    [01;35m[K^[m[K
+[18.972s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[18.973s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[18.973s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[18.974s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.974s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[18.974s]       |                [01;35m[K^[m[K
+[18.976s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[18.977s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[18.977s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.977s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[18.977s]       |                    [01;35m[K^[m[K
+[18.979s] [ 68%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[19.003s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[19.003s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.004s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[19.004s]       |                        [01;35m[K~~~~~^~~~[m[K
+[19.104s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[19.105s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[19.105s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.105s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[19.105s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[19.106s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.106s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[19.106s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[19.106s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.106s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[19.106s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[19.106s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.106s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[19.107s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[19.107s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[19.107s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.107s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[19.107s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[19.107s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.107s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[19.107s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[19.107s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.108s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[19.108s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[19.108s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.108s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[19.108s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[19.302s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o[0m
+[19.618s] [ 73%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o[0m
+[19.854s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[19.854s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[19.854s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[19.854s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.855s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[19.855s]       |                [01;35m[K^[m[K
+[19.855s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[19.855s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[19.856s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.856s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[19.856s]       |                    [01;35m[K^[m[K
+[19.879s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[19.879s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.879s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[19.879s]       |                        [01;35m[K~~~~~^~~~[m[K
+[20.175s] [ 76%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[20.399s] [ 78%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o[0m
+[20.480s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[20.480s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[20.481s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[20.481s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.481s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[20.482s]       |                [01;35m[K^[m[K
+[20.482s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[20.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[20.482s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[20.482s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.483s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[20.483s]       |                [01;35m[K^[m[K
+[20.484s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.484s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[20.484s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[20.484s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[20.484s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.484s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.484s]       |                    [01;35m[K^[m[K
+[20.486s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[20.487s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[20.488s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.488s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.489s]       |                    [01;35m[K^[m[K
+[20.604s] [ 81%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[20.668s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[20.668s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[20.668s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:52:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[20.669s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[20.669s]       |                                                                             [01;35m[K^~~~[m[K
+[20.669s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[20.669s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.669s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[20.670s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[20.719s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.719s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[20.719s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[20.720s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.721s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.721s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[20.721s]       |                [01;35m[K^[m[K
+[20.723s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.724s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[20.724s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[20.724s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.724s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.725s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.725s]       |                    [01;35m[K^[m[K
+[20.906s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[20.906s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.907s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[20.908s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[20.909s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[20.910s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.910s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[20.910s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[20.913s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[20.913s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.914s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[20.914s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[20.914s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.915s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[20.915s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[20.971s] [ 84%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[21.138s] [ 86%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[21.348s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.348s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[21.348s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.349s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[21.349s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.349s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.349s]       |                [01;35m[K^[m[K
+[21.349s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.349s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[21.350s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.350s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[21.350s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.350s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.350s]       |                    [01;35m[K^[m[K
+[21.584s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[21.584s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[21.584s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.585s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[21.585s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[21.863s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[21.863s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[21.863s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[21.863s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.864s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.864s]       |                [01;35m[K^[m[K
+[21.865s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[21.865s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[21.865s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.865s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.865s]       |                    [01;35m[K^[m[K
+[21.891s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.891s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[21.891s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.891s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[21.891s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.892s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.892s]       |                [01;35m[K^[m[K
+[21.892s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.892s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[21.893s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.893s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[21.893s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.893s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.893s]       |                    [01;35m[K^[m[K
+[22.042s] [ 89%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[22.163s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[22.163s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[22.163s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[22.164s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[22.164s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.164s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[22.164s]       |                [01;35m[K^[m[K
+[22.166s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[22.167s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[22.167s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[22.167s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[22.167s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.168s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.168s]       |                    [01;35m[K^[m[K
+[22.197s] [ 92%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[22.281s] [ 94%] [32m[1mLinking CXX executable rplidar_node[0m
+[22.516s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[22.516s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[22.516s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.516s]    54 |  virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[22.516s]       |                                         [01;35m[K~~~~^~~~~~~[m[K
+[22.517s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.517s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[22.517s]       |                                                      [01;35m[K~~~~~^~~~~~~~~~[m[K
+[22.517s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.517s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[22.517s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[22.517s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.517s]    54 |  virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[22.518s]       |                                                                                         [01;35m[K~~~~~~~^~~~[m[K
+[22.518s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[22.518s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.518s]    56 |  virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[22.518s]       |                               [01;35m[K~~~~^~~~~~[m[K
+[22.518s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.518s]    56 |  virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[22.518s]       |                                           [01;35m[K~~~~^~~~~~~[m[K
+[22.519s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.519s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[22.519s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[22.519s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.519s]    56 |  virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[22.519s]       |                                                                             [01;35m[K~~~~~~~^~~~[m[K
+[22.560s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[22.561s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[22.561s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.561s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[22.561s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[22.608s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[22.609s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[22.609s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_async_transceiver.h:90:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.609s]    90 |  virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[22.609s]       |                                [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[22.692s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[22.693s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.693s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[22.693s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.716s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[22.717s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.717s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[22.717s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[22.721s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[22.722s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.722s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[22.722s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.737s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[22.738s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.738s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[22.738s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[22.764s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[22.765s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.765s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[22.765s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[22.768s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[22.768s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.768s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[22.768s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.919s] /home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[22.920s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1648:61:[m[K   required from here
+[22.920s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.920s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[22.920s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[22.955s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[22.955s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.955s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[22.955s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.955s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[22.955s]       |                [01;35m[K^[m[K
+[22.957s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.957s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[22.957s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.957s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.957s]       |                    [01;35m[K^[m[K
+[22.967s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[22.967s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.967s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[22.967s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.968s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[22.968s]       |                [01;35m[K^[m[K
+[22.968s] In file included from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.968s]                  from [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[22.968s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.969s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.969s]       |                    [01;35m[K^[m[K
+[22.982s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[22.983s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.983s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[22.983s]       |                        [01;35m[K~~~~~^~~~[m[K
+[22.992s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[22.992s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.992s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[22.993s]       |                        [01;35m[K~~~~~^~~~[m[K
+[23.113s] [ 94%] Built target rplidar_node
+[23.322s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[23.323s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[23.323s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[23.323s]       |                 [01;35m[K^~~~~~~[m[K
+[23.323s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[23.323s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[23.323s]       |                 [01;35m[K^~~~~~~[m[K
+[23.323s] [01m[K/home/ofek/grocery_picking_ws/src/sensors/rplidar_ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[23.324s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[23.324s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[24.284s] [ 97%] [32m[1mLinking CXX executable rplidar_composition[0m
+[24.789s] [100%] [32m[1mLinking CXX executable rplidar_client[0m
+[24.795s] [100%] Built target rplidar_composition
+[25.321s] [100%] Built target rplidar_client
+[25.349s] Invoked command in '/home/ofek/grocery_picking_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/rplidar_ros -- -j6 -l6
+[25.471s] Invoking command in '/home/ofek/grocery_picking_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/rplidar_ros
+[25.494s] -- Install configuration: ""
+[25.494s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/launch
+[25.495s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[25.495s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[25.495s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[25.495s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[25.495s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[25.499s] -- Set runtime path of "/home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""
+[25.499s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[25.502s] -- Set runtime path of "/home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[25.503s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[25.506s] -- Set runtime path of "/home/ofek/grocery_picking_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client" to ""
+[25.507s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[25.507s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[25.508s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[25.508s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[25.508s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[25.508s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[25.509s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[25.509s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[25.509s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[25.510s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[25.510s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[25.510s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[25.511s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.511s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.511s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[25.511s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[25.512s] -- Installing: /home/ofek/grocery_picking_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[25.527s] Invoked command in '/home/ofek/grocery_picking_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/rplidar_ros

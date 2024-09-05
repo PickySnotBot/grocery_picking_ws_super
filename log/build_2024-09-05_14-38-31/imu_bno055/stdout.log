@@ -40,8 +40,8 @@
 -- Build files have been written to: /home/ofek/grocery_picking_ws/build/imu_bno055
 [35m[1mScanning dependencies of target bno055_i2c_node[0m
 [ 25%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_driver.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/watchdog.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_node_ros2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_node_ros2.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/watchdog.cpp.o[0m
 [100%] [32m[1mLinking CXX executable bno055_i2c_node[0m
 [100%] Built target bno055_i2c_node
 -- Install configuration: ""

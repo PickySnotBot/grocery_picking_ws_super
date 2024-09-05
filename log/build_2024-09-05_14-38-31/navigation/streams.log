@@ -1,0 +1,46 @@
+[0.074s] Invoking command in '/home/ofek/grocery_picking_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/navigation/navigation -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/navigation
+[0.662s] -- The C compiler identification is GNU 9.4.0
+[0.662s] -- The CXX compiler identification is GNU 9.4.0
+[0.664s] -- Check for working C compiler: /usr/bin/cc
+[0.666s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.668s] -- Detecting C compiler ABI info
+[0.668s] -- Detecting C compiler ABI info - done
+[0.670s] -- Detecting C compile features
+[0.670s] -- Detecting C compile features - done
+[0.672s] -- Check for working CXX compiler: /usr/bin/c++
+[0.874s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.876s] -- Detecting CXX compiler ABI info
+[1.101s] -- Detecting CXX compiler ABI info - done
+[1.124s] -- Detecting CXX compile features
+[1.126s] -- Detecting CXX compile features - done
+[1.132s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.192s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.193s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.673s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.853s] -- Added test 'lint_cmake' to check CMake code style
+[1.856s] -- Added test 'xmllint' to check XML markup files
+[1.862s] -- Configuring done
+[1.866s] -- Generating done
+[1.869s] -- Build files have been written to: /home/ofek/grocery_picking_ws/build/navigation
+[1.886s] Invoked command in '/home/ofek/grocery_picking_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/navigation/navigation -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/navigation
+[1.888s] Invoking command in '/home/ofek/grocery_picking_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/navigation -- -j6 -l6
+[2.300s] Invoked command in '/home/ofek/grocery_picking_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/navigation -- -j6 -l6
+[2.395s] Invoking command in '/home/ofek/grocery_picking_ws/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/navigation
+[3.730s] -- Install configuration: ""
+[3.736s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[3.736s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[3.736s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[3.736s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[3.736s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/environment/path.sh
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/environment/path.dsv
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/local_setup.bash
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/local_setup.sh
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/local_setup.zsh
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/local_setup.dsv
+[3.737s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/package.dsv
+[3.738s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/ament_index/resource_index/packages/navigation
+[3.738s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[3.738s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[3.739s] -- Installing: /home/ofek/grocery_picking_ws/install/navigation/share/navigation/package.xml
+[3.749s] Invoked command in '/home/ofek/grocery_picking_ws/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/navigation
