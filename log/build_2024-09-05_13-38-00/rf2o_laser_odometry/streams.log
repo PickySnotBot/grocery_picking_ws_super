@@ -1,0 +1,79 @@
+[0.611s] Invoking command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/localization/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/rf2o_laser_odometry
+[0.732s] -- The C compiler identification is GNU 9.4.0
+[0.869s] -- The CXX compiler identification is GNU 9.4.0
+[0.880s] -- Check for working C compiler: /usr/bin/cc
+[1.060s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.063s] -- Detecting C compiler ABI info
+[1.241s] -- Detecting C compiler ABI info - done
+[1.261s] -- Detecting C compile features
+[1.262s] -- Detecting C compile features - done
+[1.268s] -- Check for working CXX compiler: /usr/bin/c++
+[1.435s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.439s] -- Detecting CXX compiler ABI info
+[1.628s] -- Detecting CXX compiler ABI info - done
+[1.654s] -- Detecting CXX compile features
+[1.656s] -- Detecting CXX compile features - done
+[1.662s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.717s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.718s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.192s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.308s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.533s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.603s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.895s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.901s] -- Looking for pthread.h
+[3.043s] -- Looking for pthread.h - found
+[3.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.193s] -- Looking for pthread_create in pthreads
+[3.336s] -- Looking for pthread_create in pthreads - not found
+[3.337s] -- Looking for pthread_create in pthread
+[3.480s] -- Looking for pthread_create in pthread - found
+[3.481s] -- Found Threads: TRUE  
+[3.782s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.852s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.872s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.880s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.734s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.914s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.080s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[5.232s] -- Configuring done
+[5.269s] -- Generating done
+[5.276s] -- Build files have been written to: /home/ofek/grocery_picking_ws/build/rf2o_laser_odometry
+[5.326s] Invoked command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/localization/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/rf2o_laser_odometry
+[5.328s] Invoking command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/rf2o_laser_odometry -- -j6 -l6
+[5.471s] [35m[1mScanning dependencies of target rf2o_laser_odometry[0m
+[5.502s] [35m[1mScanning dependencies of target rf2o_laser_odometry_node[0m
+[5.600s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[5.682s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[5.706s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[55.191s] [ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[55.523s] [ 80%] Built target rf2o_laser_odometry
+[55.918s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[57.851s] [100%] Built target rf2o_laser_odometry_node
+[57.876s] Invoked command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/rf2o_laser_odometry -- -j6 -l6
+[57.935s] Invoking command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/rf2o_laser_odometry
+[57.955s] -- Install configuration: ""
+[57.955s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[57.971s] -- Set runtime path of "/home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[57.971s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[57.972s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[57.972s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[57.972s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[57.973s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[57.973s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[57.974s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[57.974s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[57.974s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[57.974s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[57.974s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[57.975s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[57.975s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[57.975s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[57.976s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[57.976s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[57.977s] -- Installing: /home/ofek/grocery_picking_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[57.984s] Invoked command in '/home/ofek/grocery_picking_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/rf2o_laser_odometry

@@ -1,0 +1,10 @@
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/install/local.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/install.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/list_install_components.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/rebuild_cache.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/edit_cache.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/test.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/bno055_i2c_node.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/install/strip.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/imu_bno055_uninstall.dir
+/home/ofek/grocery_picking_ws/build/imu_bno055/CMakeFiles/uninstall.dir

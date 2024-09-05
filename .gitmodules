@@ -1,0 +1,33 @@
+[submodule "base"]
+	path = base
+	url = https://github.com/PickySnotBot/base.git
+[submodule "control"]
+	path = control
+	url = https://github.com/PickySnotBot/control.git
+[submodule "localization"]
+	path = localization
+	url = https://github.com/PickySnotBot/localization.git
+[submodule "mapping"]
+	path = mapping
+	url = https://github.com/PickySnotBot/mapping.git
+[submodule "mission"]
+	path = mission
+	url = https://github.com/PickySnotBot/mission.git
+[submodule "navigation"]
+	path = navigation
+	url = https://github.com/PickySnotBot/navigation.git
+[submodule "planning"]
+	path = planning
+	url = https://github.com/PickySnotBot/planning.git
+[submodule "robot_description"]
+	path = robot_description
+	url = https://github.com/PickySnotBot/robot_description.git
+[submodule "sensors"]
+	path = sensors
+	url = https://github.com/PickySnotBot/sensors.git
+[submodule "slam"]
+	path = slam
+	url = https://github.com/PickySnotBot/slam.git
+[submodule "vision"]
+	path = vision
+	url = https://github.com/PickySnotBot/vision.git

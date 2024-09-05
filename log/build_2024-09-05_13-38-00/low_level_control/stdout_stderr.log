@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread chrono system 
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ofek/grocery_picking_ws/src/control/low_level_control/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ofek/grocery_picking_ws/build/low_level_control
+[35m[1mScanning dependencies of target low_level_bridge[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/low_level_bridge.dir/src/low_level_bridge.cpp.o[0m
+In file included from [01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/src/low_level_bridge.cpp:1[m[K:
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/include/low_level_control/low_level_bridge.hpp:[m[K In constructor ‘[01m[KOdometryProcessor::OdometryProcessor()[m[K’:
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/include/low_level_control/low_level_bridge.hpp:83:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KOdometryProcessor::baud_rate_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   83 |     int [01;35m[Kbaud_rate_[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/include/low_level_control/low_level_bridge.hpp:76:30:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Knav_msgs::msg::Odometry* OdometryProcessor::latest_odom_[m[K’ [[01;35m[K-Wreorder[m[K]
+   76 |     nav_msgs::msg::Odometry* [01;35m[Klatest_odom_[m[K;  // Use a pointer to store the latest odometry message
+      |                              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/src/low_level_bridge.cpp:26:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   26 | [01;35m[KOdometryProcessor[m[K::OdometryProcessor()
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/src/low_level_bridge.cpp:1[m[K:
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/include/low_level_control/low_level_bridge.hpp:87:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KOdometryProcessor::last_odom_feedback_time_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   87 |     rclcpp::Time [01;35m[Klast_odom_feedback_time_[m[K;  // Track last odometry feedback time
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/include/low_level_control/low_level_bridge.hpp:86:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::atomic<long unsigned int> OdometryProcessor::queue_size_[m[K’ [[01;35m[K-Wreorder[m[K]
+   86 |     std::atomic<size_t> [01;35m[Kqueue_size_[m[K;  // Track the size of the queue
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ofek/grocery_picking_ws/src/control/low_level_control/src/low_level_bridge.cpp:26:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   26 | [01;35m[KOdometryProcessor[m[K::OdometryProcessor()
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable low_level_bridge[0m
+[100%] Built target low_level_bridge
+-- Install configuration: ""
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/lib/low_level_control/low_level_bridge
+-- Set runtime path of "/home/ofek/grocery_picking_ws/install/low_level_control/lib/low_level_control/low_level_bridge" to ""
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/ament_index/resource_index/package_run_dependencies/low_level_control
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/ament_index/resource_index/parent_prefix_path/low_level_control
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/environment/ament_prefix_path.sh
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/environment/ament_prefix_path.dsv
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/environment/path.sh
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/environment/path.dsv
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/local_setup.bash
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/local_setup.sh
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/local_setup.zsh
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/local_setup.dsv
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/package.dsv
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/ament_index/resource_index/packages/low_level_control
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/cmake/low_level_controlConfig.cmake
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/cmake/low_level_controlConfig-version.cmake
+-- Installing: /home/ofek/grocery_picking_ws/install/low_level_control/share/low_level_control/package.xml

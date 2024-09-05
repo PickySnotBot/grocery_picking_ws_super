@@ -1,0 +1,9 @@
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/install/strip.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/install.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/list_install_components.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/rebuild_cache.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/edit_cache.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/test.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/install/local.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/localization_uninstall.dir
+/home/ofek/grocery_picking_ws/build/localization/CMakeFiles/uninstall.dir

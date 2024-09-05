@@ -1,0 +1,16 @@
+/home/ofek/grocery_picking_ws/install/imu_bno055/lib/imu_bno055/bno055_i2c_node
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/ament_index/resource_index/package_run_dependencies/imu_bno055
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/ament_index/resource_index/parent_prefix_path/imu_bno055
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.sh
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.dsv
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/environment/path.sh
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/environment/path.dsv
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/local_setup.bash
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/local_setup.sh
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/local_setup.zsh
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/local_setup.dsv
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/package.dsv
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/ament_index/resource_index/packages/imu_bno055
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config.cmake
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config-version.cmake
+/home/ofek/grocery_picking_ws/install/imu_bno055/share/imu_bno055/package.xml

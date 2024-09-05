@@ -1,0 +1,73 @@
+[0.085s] Invoking command in '/home/ofek/grocery_picking_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/localization/localization -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/localization
+[0.673s] -- The C compiler identification is GNU 9.4.0
+[0.673s] -- The CXX compiler identification is GNU 9.4.0
+[0.673s] -- Check for working C compiler: /usr/bin/cc
+[0.673s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.673s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.673s] -- Detecting C compile features
+[0.674s] -- Detecting C compile features - done
+[0.675s] -- Check for working CXX compiler: /usr/bin/c++
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.822s] -- Detecting CXX compiler ABI info
+[1.005s] -- Detecting CXX compiler ABI info - done
+[1.039s] -- Detecting CXX compile features
+[1.040s] -- Detecting CXX compile features - done
+[1.045s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.587s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.727s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.956s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.023s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.311s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.316s] -- Looking for pthread.h
+[2.486s] -- Looking for pthread.h - found
+[2.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.637s] -- Looking for pthread_create in pthreads
+[2.770s] -- Looking for pthread_create in pthreads - not found
+[2.770s] -- Looking for pthread_create in pthread
+[2.910s] -- Looking for pthread_create in pthread - found
+[2.912s] -- Found Threads: TRUE  
+[3.208s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.427s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.151s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[4.157s] -- Found robot_localization: 3.1.2 (/opt/ros/foxy/share/robot_localization/cmake)
+[4.888s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.057s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.062s] -- Added test 'lint_cmake' to check CMake code style
+[5.064s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.067s] -- Added test 'xmllint' to check XML markup files
+[5.076s] -- Configuring done
+[5.082s] -- Generating done
+[5.086s] -- Build files have been written to: /home/ofek/grocery_picking_ws/build/localization
+[5.132s] Invoked command in '/home/ofek/grocery_picking_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake /home/ofek/grocery_picking_ws/src/localization/localization -DCMAKE_INSTALL_PREFIX=/home/ofek/grocery_picking_ws/install/localization
+[5.133s] Invoking command in '/home/ofek/grocery_picking_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/localization -- -j6 -l6
+[5.271s] Invoked command in '/home/ofek/grocery_picking_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --build /home/ofek/grocery_picking_ws/build/localization -- -j6 -l6
+[5.343s] Invoking command in '/home/ofek/grocery_picking_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/localization
+[5.382s] -- Install configuration: ""
+[5.382s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/launch
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/launch/snot_ekf.launch.py
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/config
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/config/snot_ekf_config.yaml
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[5.383s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/environment/path.sh
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/environment/path.dsv
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/local_setup.bash
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/local_setup.sh
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/local_setup.zsh
+[5.384s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/local_setup.dsv
+[5.385s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/package.dsv
+[5.385s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/ament_index/resource_index/packages/localization
+[5.385s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[5.385s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[5.385s] -- Installing: /home/ofek/grocery_picking_ws/install/localization/share/localization/package.xml
+[5.395s] Invoked command in '/home/ofek/grocery_picking_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/home/ofek/grocery_picking_ws/install/remote_control /usr/bin/cmake --install /home/ofek/grocery_picking_ws/build/localization

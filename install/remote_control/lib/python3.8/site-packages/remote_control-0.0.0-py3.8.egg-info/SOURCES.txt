@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/remote_control/remote_control.egg-info/PKG-INFO
+../../../build/remote_control/remote_control.egg-info/SOURCES.txt
+../../../build/remote_control/remote_control.egg-info/dependency_links.txt
+../../../build/remote_control/remote_control.egg-info/entry_points.txt
+../../../build/remote_control/remote_control.egg-info/requires.txt
+../../../build/remote_control/remote_control.egg-info/top_level.txt
+../../../build/remote_control/remote_control.egg-info/zip-safe
+remote_control/__init__.py
+remote_control/joystick_control.py
+resource/remote_control
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
