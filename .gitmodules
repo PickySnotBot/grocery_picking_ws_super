@@ -31,3 +31,36 @@
 [submodule "vision"]
 	path = vision
 	url = https://github.com/PickySnotBot/vision.git
+[submodule "src/base"]
+	path = src/base
+	url = https://github.com/PickySnotBot/base.git
+[submodule "src/control"]
+	path = src/control
+	url = https://github.com/PickySnotBot/control.git
+[submodule "src/localization"]
+	path = src/localization
+	url = https://github.com/PickySnotBot/localization.git
+[submodule "src/mapping"]
+	path = src/mapping
+	url = https://github.com/PickySnotBot/mapping.git
+[submodule "src/mission"]
+	path = src/mission
+	url = https://github.com/PickySnotBot/mission.git
+[submodule "src/navigation"]
+	path = src/navigation
+	url = https://github.com/PickySnotBot/navigation.git
+[submodule "src/planning"]
+	path = src/planning
+	url = https://github.com/PickySnotBot/planning.git
+[submodule "src/robot_description"]
+	path = src/robot_description
+	url = https://github.com/PickySnotBot/robot_description.git
+[submodule "src/sensors"]
+	path = src/sensors
+	url = https://github.com/PickySnotBot/sensors.git
+[submodule "src/slam"]
+	path = src/slam
+	url = https://github.com/PickySnotBot/slam.git
+[submodule "src/vision"]
+	path = src/vision
+	url = https://github.com/PickySnotBot/vision.git
